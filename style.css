@@ -1,0 +1,114 @@
+body {
+
+}
+
+header {
+    background-color: aquamarine;
+    display: flex;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#logo {
+    background-color: plum;
+    height: 100%;
+    width: 300px;
+}
+
+#nav-profile-block {
+    background-color: seagreen;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+nav {
+    background-color: yellow;
+    padding: 0 50px 0 0;
+    text-align: right;
+    width: 70%;
+}
+nav li {
+    display: inline;
+}
+
+#profile-block {
+    background-color: yellowgreen;
+    width: 200px;
+}
+
+.fa-user-circle {
+    font-size: 50px;
+}
+
+#hero-image {
+    background-color: sandybrown;
+    height: 300px;
+    width: 100%;
+}
+
+main {
+    background-color: cadetblue;
+}
+
+article {
+    padding: 30px;
+}
+
+#main-search {
+    background-color: red;
+    border-radius: 50px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 25px;
+    width: 50%;
+}
+#main-search input[type=text], button {
+    border: none;
+    height: 50px;
+}
+#main-search input[type=text] {
+    justify-content: flex-start;
+    width: 100%;
+}
+#main-search button {
+    background-color: orange;
+    justify-content: flex-end;
+}
+
+#vegetables {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.vegetable {
+    background-color: palegreen;
+    margin: 10px;
+    max-width: 350px;
+}
+
+.vegetable-image {
+    border: 20px solid green;
+    border-radius: 50%;
+    height: 200px;
+    margin: 0 50px;
+    width: 200px;
+}
+
+.vegetable h2 {
+    text-align: center;
+}
+
+.vegetable p {
+    padding: 0 30px 30px 30px;
+}
+
+footer {
+    background-color: indianred;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
