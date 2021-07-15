@@ -106,9 +106,31 @@ article {
     padding: 0 30px 30px 30px;
 }
 
+.vegetable button {
+    width: 100px;
+}
+
 footer {
     background-color: indianred;
     bottom: 0;
     position: relative;
     width: 100%;
+}
+
+.footer-column {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer-a {
+    background-color: rgba(200, 200, 200, 0.5);;
+    width: 25%;
+}
+.footer-b {
+    background-color:rgba(200, 200, 200, 0.5);
+    width: 25%;
+}
+.footer-c {
+    background-color:crimson;
+    width: 50%;
 }
