@@ -10,7 +10,7 @@ header {
     /* background-color: aquamarine; */
     display: flex;
     height: 50px;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
 }
@@ -64,7 +64,7 @@ nav li {
 
 #hero-image {
     /* background-color: sandybrown; */
-    height: 500px;
+    padding: 200px 0 100px 0;
     width: 100%;
 }
 
