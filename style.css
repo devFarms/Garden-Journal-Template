@@ -40,6 +40,7 @@ header {
     /* background-color: seagreen; */
     display: flex;
     justify-content: flex-end;
+    padding: 60px 0 0 0;
     width: 100%;
 }
 
@@ -85,7 +86,7 @@ article {
 }
 
 #main-search {
-    background-color: red;
+    background-color: white;
     border-radius: 50px;
     display: flex;
     margin: 0 auto;
@@ -101,7 +102,9 @@ article {
     width: 100%;
 }
 #main-search button {
-    background-color: orange;
+    background-color: white;
+    color: #999;
+    font-size: 24px;
     justify-content: flex-end;
 }
 
