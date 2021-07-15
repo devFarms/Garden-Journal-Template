@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
     padding: 0;
 }
 
 header {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     height: 50px;
     position: fixed;
@@ -13,20 +16,35 @@ header {
 }
 
 #logo {
-    background-color: plum;
+    /* background-color: plum; */
+    color: white;
     height: 100%;
+    padding: 30px 0 0 30px;
     width: 300px;
+}
+#logo .fa-leaf {
+    font-size: 64px;
+}
+#logo h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+#logo p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
 }
 
 #nav-profile-block {
-    background-color: seagreen;
+    /* background-color: seagreen; */
     display: flex;
     justify-content: flex-end;
     width: 100%;
 }
 
 nav {
-    background-color: yellow;
+    /* background-color: yellow; */
     padding: 0 50px 0 0;
     text-align: right;
     width: 70%;
@@ -36,7 +54,7 @@ nav li {
 }
 
 #profile-block {
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     width: 200px;
 }
 
@@ -45,8 +63,8 @@ nav li {
 }
 
 #hero-image {
-    background-color: sandybrown;
-    height: 300px;
+    /* background-color: sandybrown; */
+    height: 500px;
     width: 100%;
 }
 
@@ -124,14 +142,14 @@ footer {
 }
 
 .footer-a {
-    background-color: rgba(200, 200, 200, 0.5);;
-    width: 25%;
+    background-color: crimson;
+    width: 50%;
 }
 .footer-b {
     background-color:rgba(200, 200, 200, 0.5);
     width: 25%;
 }
 .footer-c {
-    background-color:crimson;
-    width: 50%;
+    background-color:rgba(200, 200, 200, 0.5);
+    width: 25%;
 }
