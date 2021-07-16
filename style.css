@@ -1,33 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
 body {
-    margin: 0;
+    background-color: #eee;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
     padding: 0;
 }
 
 header {
+    background-color: white;
     /* background-color: aquamarine; */
-    display: flex;
-    height: 50px;
+    height: 300px;
     position: absolute;
-    text-shadow: 1px 1px #6a6a6a;
     top: 0;
     width: 100%;
 }
 
 #logo {
     /* background-color: plum; */
-    color: white;
+    color: dimgray;
     height: 100%;
-    padding: 30px 0 0 30px;
-    width: 300px;
+    margin: 40px auto 0 auto;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
 }
 #logo .fa-leaf {
-    font-size: 64px;
+    color: seagreen;
+    font-size: 150px;
 }
 #logo h2 {
-    font-size: 24px;
+    font-size: 36px;
     margin: 0;
     padding: 0;
 }
@@ -38,8 +41,9 @@ header {
 }
 
 #nav-profile-block {
-    /* background-color: seagreen; */
-    display: flex;
+    background-color: seagreen;
+    display: none;
+    /* display: flex; */
     justify-content: flex-end;
     padding: 60px 0 0 0;
     width: 100%;
@@ -79,7 +83,7 @@ nav li {
 }
 
 main {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 
 article {
@@ -116,7 +120,7 @@ article {
 }
 
 .vegetable {
-    background-color: palegreen;
+    /* background-color: palegreen; */
     margin: 10px;
     max-width: 350px;
 }
@@ -142,7 +146,7 @@ article {
 }
 
 footer {
-    background-color: indianred;
+    /* background-color: indianred; */
     bottom: 0;
     position: relative;
     width: 100%;
@@ -154,14 +158,14 @@ footer {
 }
 
 .footer-a {
-    background-color: crimson;
+    /* background-color: crimson; */
     width: 50%;
 }
 .footer-b {
-    background-color:rgba(200, 200, 200, 0.5);
+    /* background-color:rgba(200, 200, 200, 0.5); */
     width: 25%;
 }
 .footer-c {
-    background-color:rgba(200, 200, 200, 0.5);
+    /* background-color:rgba(200, 200, 200, 0.5); */
     width: 25%;
 }
