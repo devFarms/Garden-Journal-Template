@@ -20,7 +20,7 @@ header {
     /* background-color: plum; */
     color: dimgray;
     height: 100%;
-    margin: 40px auto 0 auto;
+    margin: 0 auto 0 auto;
     justify-content: center;
     text-align: center;
     width: 500px;
@@ -40,26 +40,26 @@ header {
     padding: 0;
 }
 
-#nav-profile-block {
+/* #nav-profile-block {
     background-color: seagreen;
     display: none;
     /* display: flex; */
-    justify-content: flex-end;
+    /*justify-content: flex-end;
     padding: 60px 0 0 0;
     width: 100%;
-}
+} */
 
 nav {
     /* background-color: yellow; */
     padding: 0;
-    text-align: right;
-    width: 70%;
 }
 nav ul {
-    padding: 33px 0 0 0;
+    padding: 0 0 0 50px;
 }
 nav li {
-    color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: 900;
     display: inline;
     padding: 0 30px 0 0;
 }
@@ -126,7 +126,7 @@ article {
 }
 
 .vegetable-image {
-    border: 20px solid green;
+    border: 5px solid #d8d8d8;
     border-radius: 50%;
     height: 200px;
     margin: 0 50px;
@@ -148,6 +148,7 @@ article {
 footer {
     /* background-color: indianred; */
     bottom: 0;
+    color: white;
     position: relative;
     width: 100%;
 }
