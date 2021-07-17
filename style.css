@@ -26,7 +26,7 @@ header {
     margin: 0 auto 0 auto;
     justify-content: center;
     text-align: center;
-    width: 500px;
+    /* width: 500px; */
 }
 #logo .fa-leaf {
     color: seagreen;
@@ -88,11 +88,11 @@ nav li:hover {
     font-size: 50px;
 }
 
-#hero-image {
-    /* background-color: sandybrown; */
+/* #hero-image {
+    background-color: sandybrown;
     padding: 200px 0 100px 0;
     width: 100%;
-}
+} */
 
 main {
     /* background-color: cadetblue; */
@@ -106,7 +106,7 @@ article {
     background-color: white;
     border-radius: 50px;
     display: flex;
-    margin: 0 auto;
+    margin: 350px auto 0 auto;
     padding: 0 25px;
     width: 50%;
 }
@@ -141,6 +141,7 @@ article {
     margin: 10px;
     max-width: 350px;
     padding: 20px 0 0 0;
+    position: relative;
 }
 
 .vegetable-image {
@@ -162,17 +163,20 @@ article {
 .vegetable button {
     align-items: flex-end;
     background-color: #FFDFD8;
+    bottom: 0;
+    clear: both;
     color: crimson;
     font-weight: 900;
     justify-content: center; 
     padding: 0 40px;
+    position: absolute;
 }
 
 .attributes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 50px 20px;
     text-align: center;
 }
 .attribute {
@@ -193,9 +197,9 @@ footer {
     width: 100%;
 }
 
-.footer-column {
+.footer-columns {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .footer-a {
@@ -210,3 +214,27 @@ footer {
     /* background-color:rgba(200, 200, 200, 0.5); */
     width: 25%;
 }
+
+#footer-copyright {
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    nav, #profile-block {
+        display: none;
+    }
+    
+    header {
+        height: inherit;
+        padding: 30px 0;
+    }
+    
+    #main-search {
+        margin-top: 250px;
+    }
+
+    .footer-a, .footer-b, .footer-c {
+        width: 100%;
+    }
+  }
