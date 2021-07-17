@@ -3,6 +3,9 @@
 body {
     background-color: #eee;
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 150%;
     margin: 0;
     padding: 0;
 }
@@ -61,7 +64,12 @@ nav li {
     font-size: 12px;
     font-weight: 900;
     display: inline;
-    padding: 0 30px 0 0;
+    padding: 0 20px 5px 20px;
+    text-align: center;
+}
+
+nav li:hover {
+    border-bottom: 5px #FFDFD8 solid;
 }
 
 #profile-block {
@@ -118,22 +126,28 @@ article {
 }
 
 #vegetables {
+    /* background-color: crimson; */
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .vegetable {
     /* background-color: palegreen; */
+    background-color: #fafafa;
+    border-radius: 30px;
     margin: 10px;
     max-width: 350px;
+    padding: 20px 0 0 0;
 }
 
 .vegetable-image {
     border: 5px solid #d8d8d8;
     border-radius: 50%;
     height: 200px;
-    margin: 0 50px;
+    margin: 0 auto;
     width: 200px;
 }
 
@@ -146,7 +160,29 @@ article {
 }
 
 .vegetable button {
-    width: 100px;
+    align-items: flex-end;
+    background-color: #FFDFD8;
+    color: crimson;
+    font-weight: 900;
+    justify-content: center; 
+    padding: 0 40px;
+}
+
+.attributes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
+.attribute {
+    background-color: #999;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 5px 10px;
+    margin: 3px;
 }
 
 footer {
